@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1505031FA4D1EEF7DB4B729B /* libPods-Domicilios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E15213D5352AD2719314661 /* libPods-Domicilios.a */; };
+		55141F511F6875CD004B074C /* Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = 55141F4E1F6875CD004B074C /* Pin.m */; };
+		55A883841F6600D800BCD14F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A883831F6600D800BCD14F /* main.m */; };
+		55A883871F6600D800BCD14F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A883861F6600D800BCD14F /* AppDelegate.m */; };
+		55A8838A1F6600D800BCD14F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A883891F6600D800BCD14F /* ViewController.m */; };
+		55A8838D1F6600D800BCD14F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A8838B1F6600D800BCD14F /* Main.storyboard */; };
+		55A8838F1F6600D800BCD14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A8838E1F6600D800BCD14F /* Assets.xcassets */; };
+		55A883921F6600D800BCD14F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A883901F6600D800BCD14F /* LaunchScreen.storyboard */; };
+		55A8839D1F6600D800BCD14F /* DomiciliosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A8839C1F6600D800BCD14F /* DomiciliosTests.m */; };
+		55A883A81F6600D800BCD14F /* DomiciliosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A883A71F6600D800BCD14F /* DomiciliosUITests.m */; };
+		55B68C191F66733D005D3EA9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B68C181F66733D005D3EA9 /* MapKit.framework */; };
+		55B68C1F1F667B83005D3EA9 /* ViewControllerMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B68C1E1F667B83005D3EA9 /* ViewControllerMap.m */; };
+		55B9EF971F66408400D9E039 /* cellTableCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B9EF961F66408400D9E039 /* cellTableCategory.m */; };
+		55B9EF9E1F6648A700D9E039 /* kermit_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B9EF9B1F6648A700D9E039 /* kermit_empty.png */; };
+		55B9EF9F1F6648A700D9E039 /* kermit_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B9EF9C1F6648A700D9E039 /* kermit_full.png */; };
+		55B9EFA01F6648A700D9E039 /* kermit_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B9EF9D1F6648A700D9E039 /* kermit_half.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55A883991F6600D800BCD14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A883771F6600D700BCD14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A8837E1F6600D800BCD14F;
+			remoteInfo = Domicilios;
+		};
+		55A883A41F6600D800BCD14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A883771F6600D700BCD14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A8837E1F6600D800BCD14F;
+			remoteInfo = Domicilios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14932B614FA01D1E8E3ECCDE /* Pods-Domicilios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domicilios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Domicilios/Pods-Domicilios.debug.xcconfig"; sourceTree = "<group>"; };
+		2E15213D5352AD2719314661 /* libPods-Domicilios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Domicilios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CC073E1F5D5F0C9CDED0A9 /* Pods-Domicilios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domicilios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Domicilios/Pods-Domicilios.release.xcconfig"; sourceTree = "<group>"; };
+		55141F4D1F6875CD004B074C /* Pin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pin.h; sourceTree = "<group>"; };
+		55141F4E1F6875CD004B074C /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pin.m; sourceTree = "<group>"; };
+		55A8837F1F6600D800BCD14F /* Domicilios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Domicilios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A883831F6600D800BCD14F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55A883851F6600D800BCD14F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55A883861F6600D800BCD14F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55A883881F6600D800BCD14F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55A883891F6600D800BCD14F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55A8838C1F6600D800BCD14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55A8838E1F6600D800BCD14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55A883911F6600D800BCD14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55A883931F6600D800BCD14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A883981F6600D800BCD14F /* DomiciliosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomiciliosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A8839C1F6600D800BCD14F /* DomiciliosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DomiciliosTests.m; sourceTree = "<group>"; };
+		55A8839E1F6600D800BCD14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A883A31F6600D800BCD14F /* DomiciliosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomiciliosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A883A71F6600D800BCD14F /* DomiciliosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DomiciliosUITests.m; sourceTree = "<group>"; };
+		55A883A91F6600D800BCD14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B68C181F66733D005D3EA9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		55B68C1D1F667B83005D3EA9 /* ViewControllerMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerMap.h; sourceTree = "<group>"; };
+		55B68C1E1F667B83005D3EA9 /* ViewControllerMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerMap.m; sourceTree = "<group>"; };
+		55B9EF951F66408400D9E039 /* cellTableCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellTableCategory.h; sourceTree = "<group>"; };
+		55B9EF961F66408400D9E039 /* cellTableCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellTableCategory.m; sourceTree = "<group>"; };
+		55B9EF9B1F6648A700D9E039 /* kermit_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kermit_empty.png; sourceTree = "<group>"; };
+		55B9EF9C1F6648A700D9E039 /* kermit_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kermit_full.png; sourceTree = "<group>"; };
+		55B9EF9D1F6648A700D9E039 /* kermit_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kermit_half.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A8837C1F6600D800BCD14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B68C191F66733D005D3EA9 /* MapKit.framework in Frameworks */,
+				1505031FA4D1EEF7DB4B729B /* libPods-Domicilios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A883951F6600D800BCD14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A883A01F6600D800BCD14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AF4433AA30C4E5A780E4B59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55B68C181F66733D005D3EA9 /* MapKit.framework */,
+				2E15213D5352AD2719314661 /* libPods-Domicilios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		557FBC041F6EC925000F06EF /* Objectos */ = {
+			isa = PBXGroup;
+			children = (
+				55B9EF951F66408400D9E039 /* cellTableCategory.h */,
+				55B9EF961F66408400D9E039 /* cellTableCategory.m */,
+				55141F4D1F6875CD004B074C /* Pin.h */,
+				55141F4E1F6875CD004B074C /* Pin.m */,
+			);
+			name = Objectos;
+			sourceTree = "<group>";
+		};
+		557FBC051F6EC92D000F06EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55B68C1D1F667B83005D3EA9 /* ViewControllerMap.h */,
+				55B68C1E1F667B83005D3EA9 /* ViewControllerMap.m */,
+				55A8838E1F6600D800BCD14F /* Assets.xcassets */,
+				55A883851F6600D800BCD14F /* AppDelegate.h */,
+				55A883861F6600D800BCD14F /* AppDelegate.m */,
+				55A883881F6600D800BCD14F /* ViewController.h */,
+				55A883891F6600D800BCD14F /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		55A883761F6600D700BCD14F = {
+			isa = PBXGroup;
+			children = (
+				55A883811F6600D800BCD14F /* Domicilios */,
+				55A8839B1F6600D800BCD14F /* DomiciliosTests */,
+				55A883A61F6600D800BCD14F /* DomiciliosUITests */,
+				55A883801F6600D800BCD14F /* Products */,
+				A396F10F73051236B255CD31 /* Pods */,
+				4AF4433AA30C4E5A780E4B59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55A883801F6600D800BCD14F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A8837F1F6600D800BCD14F /* Domicilios.app */,
+				55A883981F6600D800BCD14F /* DomiciliosTests.xctest */,
+				55A883A31F6600D800BCD14F /* DomiciliosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A883811F6600D800BCD14F /* Domicilios */ = {
+			isa = PBXGroup;
+			children = (
+				557FBC051F6EC92D000F06EF /* Controller */,
+				557FBC041F6EC925000F06EF /* Objectos */,
+				55B9EFA11F6648AE00D9E039 /* Images */,
+				55A8838B1F6600D800BCD14F /* Main.storyboard */,
+				55A883901F6600D800BCD14F /* LaunchScreen.storyboard */,
+				55A883931F6600D800BCD14F /* Info.plist */,
+				55A883821F6600D800BCD14F /* Supporting Files */,
+			);
+			path = Domicilios;
+			sourceTree = "<group>";
+		};
+		55A883821F6600D800BCD14F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55A883831F6600D800BCD14F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55A8839B1F6600D800BCD14F /* DomiciliosTests */ = {
+			isa = PBXGroup;
+			children = (
+				55A8839C1F6600D800BCD14F /* DomiciliosTests.m */,
+				55A8839E1F6600D800BCD14F /* Info.plist */,
+			);
+			path = DomiciliosTests;
+			sourceTree = "<group>";
+		};
+		55A883A61F6600D800BCD14F /* DomiciliosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55A883A71F6600D800BCD14F /* DomiciliosUITests.m */,
+				55A883A91F6600D800BCD14F /* Info.plist */,
+			);
+			path = DomiciliosUITests;
+			sourceTree = "<group>";
+		};
+		55B9EFA11F6648AE00D9E039 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				55B9EF9B1F6648A700D9E039 /* kermit_empty.png */,
+				55B9EF9C1F6648A700D9E039 /* kermit_full.png */,
+				55B9EF9D1F6648A700D9E039 /* kermit_half.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A396F10F73051236B255CD31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14932B614FA01D1E8E3ECCDE /* Pods-Domicilios.debug.xcconfig */,
+				46CC073E1F5D5F0C9CDED0A9 /* Pods-Domicilios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A8837E1F6600D800BCD14F /* Domicilios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A883AC1F6600D800BCD14F /* Build configuration list for PBXNativeTarget "Domicilios" */;
+			buildPhases = (
+				1E1B92D70F2ED4F6C4E49E22 /* [CP] Check Pods Manifest.lock */,
+				55A8837B1F6600D800BCD14F /* Sources */,
+				55A8837C1F6600D800BCD14F /* Frameworks */,
+				55A8837D1F6600D800BCD14F /* Resources */,
+				032DD3F97014B342BA59CADD /* [CP] Embed Pods Frameworks */,
+				765B9E2F9CBBF780772CD277 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Domicilios;
+			productName = Domicilios;
+			productReference = 55A8837F1F6600D800BCD14F /* Domicilios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55A883971F6600D800BCD14F /* DomiciliosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A883AF1F6600D800BCD14F /* Build configuration list for PBXNativeTarget "DomiciliosTests" */;
+			buildPhases = (
+				55A883941F6600D800BCD14F /* Sources */,
+				55A883951F6600D800BCD14F /* Frameworks */,
+				55A883961F6600D800BCD14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A8839A1F6600D800BCD14F /* PBXTargetDependency */,
+			);
+			name = DomiciliosTests;
+			productName = DomiciliosTests;
+			productReference = 55A883981F6600D800BCD14F /* DomiciliosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55A883A21F6600D800BCD14F /* DomiciliosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A883B21F6600D800BCD14F /* Build configuration list for PBXNativeTarget "DomiciliosUITests" */;
+			buildPhases = (
+				55A8839F1F6600D800BCD14F /* Sources */,
+				55A883A01F6600D800BCD14F /* Frameworks */,
+				55A883A11F6600D800BCD14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A883A51F6600D800BCD14F /* PBXTargetDependency */,
+			);
+			name = DomiciliosUITests;
+			productName = DomiciliosUITests;
+			productReference = 55A883A31F6600D800BCD14F /* DomiciliosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55A883771F6600D700BCD14F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Oscar;
+				TargetAttributes = {
+					55A8837E1F6600D800BCD14F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7AG4NSWHU6;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					55A883971F6600D800BCD14F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7AG4NSWHU6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55A8837E1F6600D800BCD14F;
+					};
+					55A883A21F6600D800BCD14F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7AG4NSWHU6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55A8837E1F6600D800BCD14F;
+					};
+				};
+			};
+			buildConfigurationList = 55A8837A1F6600D700BCD14F /* Build configuration list for PBXProject "Domicilios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55A883761F6600D700BCD14F;
+			productRefGroup = 55A883801F6600D800BCD14F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A8837E1F6600D800BCD14F /* Domicilios */,
+				55A883971F6600D800BCD14F /* DomiciliosTests */,
+				55A883A21F6600D800BCD14F /* DomiciliosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55A8837D1F6600D800BCD14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A883921F6600D800BCD14F /* LaunchScreen.storyboard in Resources */,
+				55B9EF9E1F6648A700D9E039 /* kermit_empty.png in Resources */,
+				55B9EFA01F6648A700D9E039 /* kermit_half.png in Resources */,
+				55B9EF9F1F6648A700D9E039 /* kermit_full.png in Resources */,
+				55A8838F1F6600D800BCD14F /* Assets.xcassets in Resources */,
+				55A8838D1F6600D800BCD14F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A883961F6600D800BCD14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A883A11F6600D800BCD14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		032DD3F97014B342BA59CADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Domicilios/Pods-Domicilios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E1B92D70F2ED4F6C4E49E22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Domicilios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		765B9E2F9CBBF780772CD277 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Domicilios/Pods-Domicilios-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Domicilios/Pods-Domicilios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A8837B1F6600D800BCD14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A8838A1F6600D800BCD14F /* ViewController.m in Sources */,
+				55A883871F6600D800BCD14F /* AppDelegate.m in Sources */,
+				55B68C1F1F667B83005D3EA9 /* ViewControllerMap.m in Sources */,
+				55141F511F6875CD004B074C /* Pin.m in Sources */,
+				55B9EF971F66408400D9E039 /* cellTableCategory.m in Sources */,
+				55A883841F6600D800BCD14F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A883941F6600D800BCD14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A8839D1F6600D800BCD14F /* DomiciliosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A8839F1F6600D800BCD14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A883A81F6600D800BCD14F /* DomiciliosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55A8839A1F6600D800BCD14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A8837E1F6600D800BCD14F /* Domicilios */;
+			targetProxy = 55A883991F6600D800BCD14F /* PBXContainerItemProxy */;
+		};
+		55A883A51F6600D800BCD14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A8837E1F6600D800BCD14F /* Domicilios */;
+			targetProxy = 55A883A41F6600D800BCD14F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55A8838B1F6600D800BCD14F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A8838C1F6600D800BCD14F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55A883901F6600D800BCD14F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A883911F6600D800BCD14F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55A883AA1F6600D800BCD14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55A883AB1F6600D800BCD14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55A883AD1F6600D800BCD14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14932B614FA01D1E8E3ECCDE /* Pods-Domicilios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 7AG4NSWHU6;
+				INFOPLIST_FILE = Domicilios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oscar.Domicilios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Domicilios/Domicilios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		55A883AE1F6600D800BCD14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CC073E1F5D5F0C9CDED0A9 /* Pods-Domicilios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 7AG4NSWHU6;
+				INFOPLIST_FILE = Domicilios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oscar.Domicilios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Domicilios/Domicilios-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		55A883B01F6600D800BCD14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7AG4NSWHU6;
+				INFOPLIST_FILE = DomiciliosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oscar.DomiciliosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Domicilios.app/Domicilios";
+			};
+			name = Debug;
+		};
+		55A883B11F6600D800BCD14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7AG4NSWHU6;
+				INFOPLIST_FILE = DomiciliosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oscar.DomiciliosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Domicilios.app/Domicilios";
+			};
+			name = Release;
+		};
+		55A883B31F6600D800BCD14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7AG4NSWHU6;
+				INFOPLIST_FILE = DomiciliosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oscar.DomiciliosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Domicilios;
+			};
+			name = Debug;
+		};
+		55A883B41F6600D800BCD14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7AG4NSWHU6;
+				INFOPLIST_FILE = DomiciliosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oscar.DomiciliosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Domicilios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55A8837A1F6600D700BCD14F /* Build configuration list for PBXProject "Domicilios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A883AA1F6600D800BCD14F /* Debug */,
+				55A883AB1F6600D800BCD14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A883AC1F6600D800BCD14F /* Build configuration list for PBXNativeTarget "Domicilios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A883AD1F6600D800BCD14F /* Debug */,
+				55A883AE1F6600D800BCD14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A883AF1F6600D800BCD14F /* Build configuration list for PBXNativeTarget "DomiciliosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A883B01F6600D800BCD14F /* Debug */,
+				55A883B11F6600D800BCD14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A883B21F6600D800BCD14F /* Build configuration list for PBXNativeTarget "DomiciliosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A883B31F6600D800BCD14F /* Debug */,
+				55A883B41F6600D800BCD14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55A883771F6600D700BCD14F /* Project object */;
+}
